@@ -18,14 +18,17 @@ The file YAML, should be in the same folder of script.
 
 Execute the program in terminal.
 
+```
 python scrip_conv_format.py
-
+```
 
 ## Crop the images using CSV file
 
 The file CSV should be in the same folder of script.
 The images should be in a folder call "images" and should be make the folder ball and robot.
 
+```
 mkdir ball
 mkdir robot
 python crop_image.py
+```

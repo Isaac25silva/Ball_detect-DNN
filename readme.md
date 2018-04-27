@@ -39,4 +39,5 @@ To testing the net, you can use the [NVIDIA DIGITS](https://github.com/NVIDIA/DI
 
 There are a script in ipython to test your net to detect ball in a image, available in folder [ball detect](https://github.com/Isaac25silva/Ball_detect-DNN/blob/master/ball_detect/Ball_detect.ipynb).
 
+A simple C++ code is available to classify images using C++ program in folder [cplusplus](https://github.com/Isaac25silva/Ball_detect-DNN/tree/master/cplusplus).
 
