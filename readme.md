@@ -7,7 +7,7 @@ If the images was tag with imaggetaguer, you should be use a script to crop imag
 
 
 
-#Deep Neural Network
+## Deep Neural Network
 
 To classify the images ball and not ball, a simple Deep Neural Network work.
 The Deep Neural Network architecture with only 2 convolution layer and 2 fully-connect classify images of ball and not ball with high accuracy (highest than 99%).
@@ -25,14 +25,14 @@ Fully-connect 2 |         |        |       |    2
 The input image is 32x32x3.
 
 
-#Train the DNN
+## Train the DNN
 
 This DNN was trainned using NVIDIA DIGITS.
 
 The model used to train is available in folder "net".
 
 
-#Testing a Net after trainned.
+## Testing a Net after trainned.
 
 To testing the net, you can use the DIGITS.
 
