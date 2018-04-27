@@ -27,16 +27,16 @@ The input image is 32x32x3.
 
 ## Train the DNN
 
-This DNN was trainned using [NVIDIA DIGITS]{https://github.com/NVIDIA/DIGITS}.
+This DNN was trainned using [NVIDIA DIGITS](https://github.com/NVIDIA/DIGITS).
 
-The model used to train is available in folder [net]{https://github.com/Isaac25silva/Ball_detect-DNN/net}.
+The model used to train is available in folder [net](https://github.com/Isaac25silva/Ball_detect-DNN/net).
 
 
 ## Testing a net after trainned.
 
-To testing the net, you can use the [NVIDIA DIGITS]{https://github.com/NVIDIA/DIGITS}.
+To testing the net, you can use the [NVIDIA DIGITS](https://github.com/NVIDIA/DIGITS).
 
 
-There are a script in ipython to test your net to detect ball in a image, available in folder [ball detect]{https://github.com/Isaac25silva/Ball_detect-DNN/ball_detect}.
+There are a script in ipython to test your net to detect ball in a image, available in folder [ball detect](https://github.com/Isaac25silva/Ball_detect-DNN/ball_detect).
 
 
