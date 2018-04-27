@@ -14,7 +14,7 @@ pandas
 
 ## Convert format Nubots YAML to CSV
 
-The file YAML, should be in the same folder of script.
+The file YAML, should be in the same folder of the script.
 
 Execute the program in terminal.
 
