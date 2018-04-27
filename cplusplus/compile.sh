@@ -1,0 +1,1 @@
+g++ cpp_classification/classification.cpp  -lcaffe -lglog -lopencv_core -lopencv_highgui -lopencv_imgproc -lopencv_imgproc -lopencv_imgcodecs -lm -lboost_system -lprotobuf -lhdf5 -L/home/fei/caffe/build/lib -I/home/fei/caffe/include -I/usr/local/cuda/include -I/usr/local/Cellar/openblas/0.2.14_1/include -L/usr/local/Cellar/openblas/0.2.14_1/lib -o classifier

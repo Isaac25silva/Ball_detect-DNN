@@ -1,0 +1,18 @@
+*.pyc
+
+*.so
+
+
+build/
+eggs/
+.eggs/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+*.manifest
+*.spec
+
+
+#Ipython Notebook
+.ipynb_checkpoints

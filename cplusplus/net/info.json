@@ -1,0 +1,27 @@
+{
+    "caffe flavor": "BVLC",
+    "caffe version": "1.0.0",
+    "creation time": "2018-04-11 18:16:56.096349",
+    "dataset_id": "20180411-164451-0907",
+    "deploy file": "deploy.prototxt",
+    "digits version": "6.1.1",
+    "framework": "caffe",
+    "id": "20180411-181656-42b8",
+    "image dimensions": [
+        32,
+        32,
+        3
+    ],
+    "image resize mode": "squash",
+    "job id": "20180411-181656-42b8",
+    "labels file": "labels.txt",
+    "mean file": "mean.binaryproto",
+    "mean subtraction": "image",
+    "model file": "original.prototxt",
+    "name": "dataset7_32_conv2_20_32_2fc_v5",
+    "snapshot file": "snapshot_iter_7290.caffemodel",
+    "solver file": "solver.prototxt",
+    "status": "Done",
+    "train_val file": "train_val.prototxt",
+    "username": "isaac"
+}
