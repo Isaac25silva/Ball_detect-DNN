@@ -1,4 +1,4 @@
-
+# Ball Detect using Deep Neural Network
 
 
 The image can be extract using the imaggetaguer https://imagetagger.bit-bots.de or can be extracted using your program that select a rectangular region of interest (ROI) in images, but the images should be tag manually.
@@ -29,7 +29,7 @@ The input image is 32x32x3.
 
 This DNN was trainned using [NVIDIA DIGITS](https://github.com/NVIDIA/DIGITS).
 
-The model used to train is available in folder [net](https://github.com/Isaac25silva/Ball_detect-DNN/net).
+The model used to train is available in folder [net](https://github.com/Isaac25silva/Ball_detect-DNN/tree/master/net).
 
 
 ## Testing a net after trainned.
@@ -37,6 +37,6 @@ The model used to train is available in folder [net](https://github.com/Isaac25s
 To testing the net, you can use the [NVIDIA DIGITS](https://github.com/NVIDIA/DIGITS).
 
 
-There are a script in ipython to test your net to detect ball in a image, available in folder [ball detect](https://github.com/Isaac25silva/Ball_detect-DNN/ball_detect).
+There are a script in ipython to test your net to detect ball in a image, available in folder [ball detect](https://github.com/Isaac25silva/Ball_detect-DNN/blob/master/ball_detect/Ball_detect.ipynb).
 
 
