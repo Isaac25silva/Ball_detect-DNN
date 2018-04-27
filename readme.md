@@ -3,7 +3,7 @@
 
 The image can be extract using the imaggetaguer https://imagetagger.bit-bots.de or can be extracted using your program that select a rectangular region of interest (ROI) in images, but the images should be tag manually.
 
-If the images was tag with imaggetaguer, you should be use a script to crop images from rectangular region of interest (ROI), the scripts is available in scripts folder.
+If the images was tag with imaggetaguer, you should be use a script to crop images from rectangular region of interest (ROI), the scripts is available in folder [scripts](https://github.com/Isaac25silva/Ball_detect-DNN/tree/master/scripts).
 
 
 

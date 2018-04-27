@@ -1,4 +1,4 @@
-# scripts to convert and crop images
+# Scripts to convert and crop images
 
 The python script "scrip_conv_format.py" is to change the format Nubots YAML to format CSV to trainned the images in a tensorflow or to crop the images to could be use in a classify.
 
