@@ -14,4 +14,6 @@ On the DIGITS homepage, click `New Dataset > Text > Classification`:
 - use 25% of samples for validation and 0% for testing (you can change this values),
 - give your dataset a name then click the "Create" button.
 
-![dataset_digits2](dataset_digits1.png)
+![dataset_digits2](dataset_digits2.png)
+
+
