@@ -47,7 +47,7 @@ A simple C++ code is available to classify images using C++ program in folder [c
 These results used the dataset available in [Dataset_ball](https://).
 
 
-          | Ball    | no Ball |  Accuracy per class |
+     -    | Ball    | no Ball |  Accuracy per class |
 ----------|:-------:|:-------:|:-------------------:|
 Ball      |   998   |    2    |        99.80        
 no Ball   |  3000   |    0    |        100.0        
