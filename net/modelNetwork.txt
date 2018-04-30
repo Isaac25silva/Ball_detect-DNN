@@ -1,4 +1,4 @@
-name: "conv2"
+name: "Conv2Ball"
 layer {
   name: "train-data"
   type: "Data"
@@ -142,10 +142,10 @@ layer {
   }
 }
 layer {
-  name: "fc7"
+  name: "fc1"
   type: "InnerProduct"
   bottom: "pool2"
-  top: "fc7"
+  top: "fc1"
   param {
     lr_mult: 1.0
     decay_mult: 1.0
@@ -155,7 +155,7 @@ layer {
     decay_mult: 0.0
   }
   inner_product_param {
-    num_output: 64
+    num_output: 128
     weight_filler {
       type: "gaussian"
       std: 0.00499999988824
@@ -167,25 +167,25 @@ layer {
   }
 }
 layer {
-  name: "relu7"
+  name: "relu3"
   type: "ReLU"
-  bottom: "fc7"
-  top: "fc7"
+  bottom: "fc1"
+  top: "fc1"
 }
 layer {
-  name: "drop7"
+  name: "drop1"
   type: "Dropout"
-  bottom: "fc7"
-  top: "fc7"
+  bottom: "fc1"
+  top: "fc1"
   dropout_param {
     dropout_ratio: 0.5
   }
 }
 layer {
-  name: "fc8_retrain_retrain_retrain"
+  name: "fc2_retrain"
   type: "InnerProduct"
-  bottom: "fc7"
-  top: "fc8"
+  bottom: "fc1"
+  top: "fc2"
   param {
     lr_mult: 1.0
     decay_mult: 1.0
@@ -208,7 +208,7 @@ layer {
 layer {
   name: "accuracy"
   type: "Accuracy"
-  bottom: "fc8"
+  bottom: "fc2"
   bottom: "label"
   top: "accuracy"
   include {
@@ -218,7 +218,7 @@ layer {
 layer {
   name: "loss"
   type: "SoftmaxWithLoss"
-  bottom: "fc8"
+  bottom: "fc2"
   bottom: "label"
   top: "loss"
   exclude {
@@ -228,9 +228,10 @@ layer {
 layer {
   name: "softmax"
   type: "Softmax"
-  bottom: "fc8"
+  bottom: "fc2"
   top: "softmax"
   include {
     stage: "deploy"
   }
 }
+

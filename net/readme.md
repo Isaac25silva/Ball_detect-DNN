@@ -5,6 +5,8 @@ The images must be extracted from the robot’s camera, after the images to clas
 
 Then use the [NVIDIA DIGITS](https://github.com/NVIDIA/DIGITS) to create a dataset to trainning.
 
+## Dataset Creation in Digits
+
 On the DIGITS homepage, click `New Dataset > Text > Classification`:
 
 ![dataset_digits1](dataset_digits1.png)
@@ -15,5 +17,33 @@ On the DIGITS homepage, click `New Dataset > Text > Classification`:
 - give your dataset a name then click the "Create" button.
 
 ![dataset_digits2](dataset_digits2.png)
+
+
+
+## Perform a Trainning in Digits
+
+After you have a digits dataset, you should perform a trainning.
+
+Click `New Model > Images > Classification`.
+
+![model](train1.png)
+
+
+
+On the model creation page:
+- select the dataset you just created,
+- set the Mean Subtraction method to "image",
+
+![model](train2.png)
+
+- select the "Custom Network" pane then click "Caffe",
+
+![model](train3.png)
+
+- in the Custom Network field paste this [network definition](modelNetwork.txt)
+- give your model a name
+
+![model](train4.png)
+
 
 

@@ -4,7 +4,7 @@ description: A simple example performing image classification using the low-leve
 category: example
 ---
 
-# Classifying ball and not ball using the C++ API
+# Classifying ball and no ball using the C++ API
 
 Caffe, at its core, is written in C++. It is possible to use the C++
 API of Caffe to implement an image classification application similar
