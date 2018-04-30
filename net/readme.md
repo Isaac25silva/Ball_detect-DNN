@@ -9,14 +9,14 @@ Then use the [NVIDIA DIGITS](https://github.com/NVIDIA/DIGITS) to create a datas
 
 On the DIGITS homepage, click `New Dataset > Text > Classification`:
 
-![dataset_digits1](dataset_digits1.png)
+![dataset](dataset_digits1.png)
 
 - change the image height and width to `32`,
 - point to the location of your dataset,
 - use 25% of samples for validation and 0% for testing (you can change this values),
 - give your dataset a name then click the "Create" button.
 
-![dataset_digits2](dataset_digits2.png)
+![dataset](dataset_digits2.png)
 
 
 
@@ -44,6 +44,21 @@ On the model creation page:
 - give your model a name
 
 ![model](train4.png)
+
+When you are ready, click the "Create" button.
+
+After a few minutes of training, your network loss and accuracy may look like:
+
+![model](train5.png)
+
+Optionally, for better results:
+- change the number of training epochs,
+- change the validation interval,
+- click "Show advanced learning rate options" and change the learning rate policy,
+- change the Gamma.
+
+The model is a typical image classification convolutional neural network, with two convolutional layers, max pooling, dropouts and a linear classifier.
+
 
 
 
