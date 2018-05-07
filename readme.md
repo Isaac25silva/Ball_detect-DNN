@@ -1,11 +1,8 @@
 # Ball Detect using Deep Neural Network
 
+In this work, the color segmentation and morphological transformations were used for ROI. The color segmentation identify the white regions on the image, then a binarized image of these regions is then created and a sequence of dilation and erosion are performed, as shows in Figure \ref{fig:ballDet} the ROI are extracted and used in DNN Input to classify whether is ball image.
 
-The image can be extract using the imaggetaguer https://imagetagger.bit-bots.de or can be extracted using your program that select a rectangular region of interest (ROI) in images, but the images should be tag manually.
-
-If the images was tag with imaggetaguer, you should be use a script to crop images from rectangular region of interest (ROI), the scripts is available in folder [scripts](https://github.com/Isaac25silva/Ball_detect-DNN/tree/master/scripts).
-
-
+![ballDetect](ballDetect.png)
 
 ## Deep Neural Network
 
@@ -26,6 +23,12 @@ The input image is 32x32x3.
 
 
 ## Train the DNN
+
+
+The image can be extract using the imaggetaguer https://imagetagger.bit-bots.de or can be extracted using your program that select a rectangular region of interest (ROI) in images, but the images should be tag manually.
+
+If the images was tag with imaggetaguer, you should be use a script to crop images from rectangular region of interest (ROI), the scripts is available in folder [scripts](https://github.com/Isaac25silva/Ball_detect-DNN/tree/master/scripts).
+
 
 This DNN was trainned using [NVIDIA DIGITS](https://github.com/NVIDIA/DIGITS).
 
