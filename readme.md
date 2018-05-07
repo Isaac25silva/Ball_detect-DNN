@@ -1,8 +1,9 @@
 # Ball Detect using Deep Neural Network
 
-In this work, the color segmentation and morphological transformations were used for ROI. The color segmentation identify the white regions on the image, then a binarized image of these regions is then created and a sequence of dilation and erosion are performed, as shows in Figure \ref{fig:ballDet} the ROI are extracted and used in DNN Input to classify whether is ball image.
+In this work, the color segmentation and morphological transformations were used for ROI. The color segmentation identify the white regions on the image, then a binarized image of these regions is then created and a sequence of dilation and erosion are performed, as shows in Figure the ROI are extracted and used in Deep Neural Network (DNN) Input to classify whether is ball image.
 
 ![ballDetect](ballDetect.png)
+
 
 ## Deep Neural Network
 
