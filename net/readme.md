@@ -1,7 +1,7 @@
 # Trainning a Deep Neural Network.
 
 
-The images must be extracted from the robot’s camera, after the images to classify should be extract using your program that select a rectangular region of interest (ROI) in images, and the images should be separated in 2 classes referring ball and no ball.
+The images must be extracted from the robot’s camera, then, should be extract  the images to classify using your program that select a rectangular region of interest (ROI) in images, and the images should be separated in 2 classes referring ball and no ball.
 
 Then use the [NVIDIA DIGITS](https://github.com/NVIDIA/DIGITS) to create a dataset to trainning.
 
