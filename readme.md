@@ -9,8 +9,8 @@ If the images was tag with imaggetaguer, you should be use a script to crop imag
 
 ## Deep Neural Network
 
-To classify the images ball and not ball, a simple Deep Neural Network work.
-The Deep Neural Network architecture with only 2 convolution layer and 2 fully-connect classify images of ball and not ball with high accuracy (highest than 99%).
+To classify the images of ball and no ball, you can use a simple Deep Neural Network.
+The Deep Neural Network architecture with only 2 convolution layer and 2 fully-connect classify images of ball and no ball with high accuracy (highest than 99%).
 
 
 Type            | Kernel  | Stride |  Pad  | Filters |
