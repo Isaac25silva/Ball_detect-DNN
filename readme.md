@@ -48,7 +48,7 @@ A simple C++ code is available to classify images using C++ program in folder [c
 ## Results.
 
 
-These results used the dataset available in [Dataset_ball](https://).
+These results used the dataset available in [Dataset_ball](https://drive.google.com/drive/folders/1tan78Q0GocKsjcJ57hrPHPaMgMxthCCH?usp=sharing).
 
 
 |             | Ball    | no Ball |  Accuracy per class |
